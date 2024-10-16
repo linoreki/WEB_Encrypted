@@ -1,0 +1,85 @@
+/* Estilos generales */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Título del chat */
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    margin-top: 20px;
+}
+
+/* Contenedor de mensajes */
+#messages {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    height: 400px;
+    overflow-y: auto; /* Permitir desplazamiento */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mensajes individuales */
+#messages div {
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del input de mensaje */
+#message {
+    width: calc(100% - 120px); /* Ancho adaptable */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px 10px 20px; /* Espaciado alrededor */
+}
+
+/* Botones */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px; /* Margen entre botones */
+}
+
+/* Efecto hover para botones */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para los campos de entrada de sala */
+#room,
+#joinRoom {
+    width: calc(100% - 120px); /* Ancho adaptable */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px; /* Espaciado alrededor */
+}

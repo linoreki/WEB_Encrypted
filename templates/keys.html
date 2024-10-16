@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Mis Claves{% endblock %}
+
+{% block content %}
+<h2>Mis Claves</h2>
+<p><strong>Clave Pública:</strong></p>
+<pre>{{ public_key }}</pre>
+
+<form method="POST" action="/regenerate_key">
+    <button type="submit" class="btn btn-warning">Regenerar Claves</button>
+</form>
+{% endblock %}

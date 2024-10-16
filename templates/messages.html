@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script> <!-- Asegúrate de tener el cliente Socket.IO -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"> <!-- Si tienes estilos -->
+</head>
+<body>
+    <div id="messagesContainer"></div>
+    <input type="text" id="messageInput" placeholder="Escribe tu mensaje...">
+    <input type="text" id="roomInput" placeholder="Nombre de la sala..."> <!-- Input para la sala -->
+    <button id="sendMessageButton">Enviar</button>
+
+    <script src="{{ url_for('static', filename='chat.js') }}"></script> <!-- Incluye tu archivo JS -->
+</body>
+</html>
