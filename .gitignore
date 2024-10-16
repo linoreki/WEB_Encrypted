@@ -1,0 +1,34 @@
+# Ignorar archivos y directorios de entornos virtuales
+venv/
+.env
+.venv
+
+# Ignorar archivos de configuración del IDE
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Ignorar archivos de base de datos
+*.db
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos de caché
+*.cache
+
+# Ignorar archivos de configuración de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de configuración de pytest
+.cache
+*.cover
+*.pytest_cache/
+
+# Ignorar archivos de configuración de flake8
+.flake8
+
+# Ignorar archivos de Jupyter
+.ipynb_checkpoints/
